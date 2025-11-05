@@ -7,20 +7,6 @@ module.exports = {
     ],
     theme: {
     	extend: {
-    		fontFamily: {
-    			sans: [
-    				'Source Sans Pro',
-    				'sans-serif'
-    			],
-    			montserrat: [
-    				'Montserrat',
-    				'sans-serif'
-    			],
-    			playfair: [
-    				'Playfair Display',
-    				'serif'
-    			]
-    		},
     		borderRadius: {
     			lg: 'var(--radius)',
     			md: 'calc(var(--radius) - 2px)',
@@ -71,7 +57,6 @@ module.exports = {
     	}
     },
     plugins: [
-        require('@tailwindcss/typography'),
         require("tailwindcss-animate")
     ],
 }
