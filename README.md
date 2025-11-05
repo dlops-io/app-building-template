@@ -73,6 +73,7 @@ frontend-template/
 Use the following instructions for your coding agent. Fill in this section with your theme requirements. Be as specific as possible.
 
 ---
+The following are details of the app and the theme required for the app. Use these details along with Theme.md to modify the theme of this existing template app.
 
 ## Theme Specification
 
@@ -99,15 +100,6 @@ navigation_items:
   - name: "Home"
     path: "/"
     icon: "Home"
-  - name: "Tasks"
-    path: "/tasks"
-    icon: "CheckSquare"
-  - name: "Projects"
-    path: "/projects"
-    icon: "FolderKanban"
-  - name: "Team"
-    path: "/team"
-    icon: "Users"
 
 # Homepage Content
 hero:
