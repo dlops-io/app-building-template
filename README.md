@@ -71,5 +71,5 @@ frontend-template/
 ## Example Apps
 
 ### 1: Task Flow Pro
-Look in App-TaskFlow Pro.md
+Look in [App-TaskFlowPro.md](App-TaskFlowPro.md)
 
