@@ -224,6 +224,11 @@ Don't forget to import the icon from `lucide-react`
 - Test on all screen sizes
 - Ensure touch-friendly interactions
 
+### 6. General Implementation Principles
+- Always use JSX for coding
+- Do not perform linting or run tests. This will be done by the user externally
+- Do not perform any npm or npx installs. Ask the user to perform for you
+- Do not run `npm run dev` as the user is already running this externally and testing the app from outside.
 ---
 
 ## Tips for Success
