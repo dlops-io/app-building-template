@@ -123,7 +123,7 @@ Use the instructions in Theme.md to apply the required changes for this app.
 Use the following instructions for your coding agent. Fill in this section with your theme requirements. Be as specific as possible.
 
 ---
-The following are details of the app and the theme required for the app. Use these details along with Component.md to modify the theme of this existing template app.
+The following are detailed requirements of new components in the app. Use these details along with Component.md to implement the required components in the app.
 
 ## Task Tracking Component Requirements
 
