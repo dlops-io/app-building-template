@@ -68,3 +68,60 @@ frontend-template/
 └── Dockerfile.dev               # Development Docker image
 ```
 
+## Customizing Themes
+
+Use the following instructions for your coding agent. Fill in this section with your theme requirements. Be as specific as possible.
+
+---
+
+## Theme Specification
+
+### Application Identity
+```yaml
+# Application Identity
+app_name: "TaskFlow Pro"
+app_description: "A powerful task management application for teams"
+tagline: "Organize. Collaborate. Succeed."
+domain: "taskflow.pro"
+
+# Color Scheme
+theme_preset: "ocean"  # Using Ocean theme
+
+# Typography
+heading_font: "Poppins, sans-serif"
+body_font: "Inter, sans-serif"
+font_cdn:
+  - "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+  - "https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+
+# Navigation
+navigation_items:
+  - name: "Home"
+    path: "/"
+    icon: "Home"
+  - name: "Tasks"
+    path: "/tasks"
+    icon: "CheckSquare"
+  - name: "Projects"
+    path: "/projects"
+    icon: "FolderKanban"
+  - name: "Team"
+    path: "/team"
+    icon: "Users"
+
+# Homepage Content
+hero:
+  title: "Manage Your Tasks with Ease"
+  subtitle: "TaskFlow Pro helps teams collaborate and stay organized with powerful task management tools."
+  cta_primary: "Start Free Trial"
+  cta_secondary: "See How It Works"
+
+# Design
+design_style: "modern"
+border_radius: "0.75rem"
+spacing: "standard"
+```
+
+Use the instructions in Theme.md to apply the required changes for this app.
+
+---
