@@ -117,3 +117,70 @@ spacing: "standard"
 Use the instructions in Theme.md to apply the required changes for this app.
 
 ---
+
+## Example Component: Task Tracking
+
+Use the following instructions for your coding agent. Fill in this section with your theme requirements. Be as specific as possible.
+
+---
+The following are details of the app and the theme required for the app. Use these details along with Component.md to modify the theme of this existing template app.
+
+## Task Tracking Component Requirements
+
+### Overview
+Create an advanced task tracking component that allows users to create, view, edit, and manage tasks with rich features including status tracking, priority levels, due dates, and filtering capabilities.
+
+### Functional Requirements
+
+#### Task Management Features
+- Create new tasks with multiple fields
+- Edit existing tasks
+- Delete tasks (with confirmation)
+- Mark tasks as complete/incomplete
+- View task details in expanded view
+
+#### Task Data Model
+Each task should include:
+- **ID**: Unique identifier (auto-generated)
+- **Title**: Task name (required, max 100 characters)
+- **Description**: Detailed description (optional)
+- **Status**: One of [To Do, In Progress, Review, Done]
+- **Priority**: One of [Low, Medium, High, Urgent]
+- **Due Date**: Target completion date (optional)
+- **Created Date**: Auto-generated timestamp
+- **Updated Date**: Auto-updated timestamp
+- **Tags**: Array of tags (optional)
+
+#### Filtering & Sorting
+- Filter by status (all, to do, in progress, review, done)
+- Filter by priority (all, low, medium, high, urgent)
+- Search across title and description
+- Sort by: due date, priority, created date, alphabetical
+
+#### View Modes
+- **List View**: Compact list showing key information
+- **Card View**: Grid of cards with more details
+- **Board View**: Kanban-style board organized by status columns
+
+#### Statistics Dashboard
+Show summary statistics:
+- Total tasks count
+- Tasks by status breakdown
+- Tasks by priority breakdown
+- Completion rate percentage
+- Overdue tasks count
+
+#### Data Persistence
+- Store tasks in browser localStorage
+- Auto-save on any change
+- Provide export/import functionality (JSON format)
+
+#### User Experience
+- Responsive design (mobile, tablet, desktop)
+- Empty states when no tasks exist
+- Loading states for async operations
+- Form validation with error messages
+- Confirmation dialogs for destructive actions
+
+Use the instructions in Component.md to implement the required changes for this app.
+---
