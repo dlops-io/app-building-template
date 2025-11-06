@@ -73,3 +73,12 @@ frontend-template/
 ### 1: Task Flow Pro
 Look in [App-TaskFlowPro.md](App-TaskFlowPro.md)
 
+### 2: Property Finder
+Look in [App-PropertyFinder.md](App-PropertyFinder.md)
+
+### 3: Stock Analyzer
+Look in [App-StockAnalyzer.md](App-StockAnalyzer.md)
+
+### 4: Agent Chat
+Look in [App-AgentChat.md](App-AgentChat.md)
+
