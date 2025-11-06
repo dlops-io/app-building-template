@@ -271,7 +271,14 @@ Display in card format:
 
 #### Data Service Integration
 
-The components use DataService from `@/lib/DataService` with the following methods:
+The components should use DataService from `@/lib/DataService` with the following methods:
+GetStockList() - Retrieves list of stocks
+GetStockData(symbol, days) - Historical OHLCV data
+GetStockMetrics(symbol) - Current stock metrics
+GetMovingAverages(symbol) - SMA and EMA indicators
+GetTechnicalIndicators(symbol) - RSI, MACD, Bollinger Bands
+
+Make sure to implement them using mock data.
 
 **Stock List:**
 ```javascript
